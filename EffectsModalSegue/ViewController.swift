@@ -20,6 +20,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let effectsSegue = segue as! EffectsModalSegue
+        effectsSegue.transitionStyle = .FromTop
+        effectsSegue.transitionStyle = .FromBottom
+//        effectsSegue.transitionStyle = .FromLeft
+//        effectsSegue.transitionStyle = .FromRight
+        effectsSegue.type = .Blur
+        effectsSegue.type = .Draken
+
+    }
+    
+    @IBAction func unWindToFirstViewController(segue: UIStoryboardSegue) { }
 
 }
 

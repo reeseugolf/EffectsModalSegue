@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3577935B1B5C8FE60054E5F3 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577935A1B5C8FE60054E5F3 /* UIImage+ImageEffects.m */; };
 		3580E4F91B589BCE00512382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580E4F81B589BCE00512382 /* AppDelegate.swift */; };
 		3580E4FB1B589BCE00512382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580E4FA1B589BCE00512382 /* ViewController.swift */; };
 		3580E4FE1B589BCE00512382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3580E4FC1B589BCE00512382 /* Main.storyboard */; };
 		3580E5001B589BCE00512382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3580E4FF1B589BCE00512382 /* Images.xcassets */; };
 		3580E5031B589BCE00512382 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3580E5011B589BCE00512382 /* LaunchScreen.xib */; };
 		3580E50F1B589BCE00512382 /* EffectsModalSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580E50E1B589BCE00512382 /* EffectsModalSegueTests.swift */; };
+		3580E5191B589BEE00512382 /* EffectsModalSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580E5181B589BEE00512382 /* EffectsModalSegue.swift */; };
+		3580E51F1B58B75000512382 /* bg_golf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3580E51E1B58B75000512382 /* bg_golf.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E28A0ADB5FBD4B8FE93130D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2DAFAE4BD9EFAF49890D9EB9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		357793591B5C8FE60054E5F3 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		3577935A1B5C8FE60054E5F3 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		3580E4F31B589BCE00512382 /* EffectsModalSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectsModalSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3580E4F71B589BCE00512382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3580E4F81B589BCE00512382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,10 @@
 		3580E5081B589BCE00512382 /* EffectsModalSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectsModalSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3580E50D1B589BCE00512382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3580E50E1B589BCE00512382 /* EffectsModalSegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsModalSegueTests.swift; sourceTree = "<group>"; };
+		3580E5181B589BEE00512382 /* EffectsModalSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectsModalSegue.swift; sourceTree = "<group>"; };
+		3580E51A1B58B4BA00512382 /* EffectsModalSegue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EffectsModalSegue-Bridging-Header.h"; sourceTree = "<group>"; };
+		3580E51E1B58B75000512382 /* bg_golf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_golf.jpg; sourceTree = "<group>"; };
+		9138A065B525B8B9E347E9B7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +67,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		357793581B5C8FD50054E5F3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3580E5181B589BEE00512382 /* EffectsModalSegue.swift */,
+				357793591B5C8FE60054E5F3 /* UIImage+ImageEffects.h */,
+				3577935A1B5C8FE60054E5F3 /* UIImage+ImageEffects.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		3580E4EA1B589BCE00512382 = {
 			isa = PBXGroup;
 			children = (
 				3580E4F51B589BCE00512382 /* EffectsModalSegue */,
 				3580E50B1B589BCE00512382 /* EffectsModalSegueTests */,
 				3580E4F41B589BCE00512382 /* Products */,
+				E27B63AD4A01AC5F63E33157 /* Pods */,
+				58EADE5573B4A9384DA8ACB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +100,15 @@
 		3580E4F51B589BCE00512382 /* EffectsModalSegue */ = {
 			isa = PBXGroup;
 			children = (
+				357793581B5C8FD50054E5F3 /* Class */,
 				3580E4F81B589BCE00512382 /* AppDelegate.swift */,
+				3580E51A1B58B4BA00512382 /* EffectsModalSegue-Bridging-Header.h */,
 				3580E4FA1B589BCE00512382 /* ViewController.swift */,
 				3580E4FC1B589BCE00512382 /* Main.storyboard */,
 				3580E4FF1B589BCE00512382 /* Images.xcassets */,
 				3580E5011B589BCE00512382 /* LaunchScreen.xib */,
 				3580E4F61B589BCE00512382 /* Supporting Files */,
+				3580E51E1B58B75000512382 /* bg_golf.jpg */,
 			);
 			path = EffectsModalSegue;
 			sourceTree = "<group>";
@@ -110,6 +136,23 @@
 				3580E50D1B589BCE00512382 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58EADE5573B4A9384DA8ACB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9138A065B525B8B9E347E9B7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27B63AD4A01AC5F63E33157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E28A0ADB5FBD4B8FE93130D /* Pods.debug.xcconfig */,
+				2DAFAE4BD9EFAF49890D9EB9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3580E51F1B58B75000512382 /* bg_golf.jpg in Resources */,
 				3580E4FE1B589BCE00512382 /* Main.storyboard in Resources */,
 				3580E5031B589BCE00512382 /* LaunchScreen.xib in Resources */,
 				3580E5001B589BCE00512382 /* Images.xcassets in Resources */,
@@ -212,8 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3577935B1B5C8FE60054E5F3 /* UIImage+ImageEffects.m in Sources */,
 				3580E4FB1B589BCE00512382 /* ViewController.swift in Sources */,
 				3580E4F91B589BCE00512382 /* AppDelegate.swift in Sources */,
+				3580E5191B589BEE00512382 /* EffectsModalSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -338,21 +384,32 @@
 		};
 		3580E5131B589BCE00512382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E28A0ADB5FBD4B8FE93130D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EffectsModalSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EffectsModalSegue/EffectsModalSegue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3580E5141B589BCE00512382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAFAE4BD9EFAF49890D9EB9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EffectsModalSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EffectsModalSegue/EffectsModalSegue-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +466,7 @@
 				3580E5141B589BCE00512382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3580E5151B589BCE00512382 /* Build configuration list for PBXNativeTarget "EffectsModalSegueTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +475,7 @@
 				3580E5171B589BCE00512382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
